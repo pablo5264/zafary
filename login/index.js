@@ -16,7 +16,8 @@ function mostrarDatos(){
 
    
     if (textoInput === 'ejemplo@gmail.com' && textoInput2 === '123456'){
-        console.log('Iniciando sesión...')    
+        console.log('Iniciando sesión...')
+        document.location.assign('../layout/index.html')    
     } 
     else {
         console.log('Email y/o contraseña incorrectos')
